@@ -1,7 +1,7 @@
 # FlickableView
 Flickable ImageView for Android. It is like a twitter's detail image.
 
-![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/sample.gif)
+![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/scaled_sample.gif)
 
 
 ## How to use
