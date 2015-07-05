@@ -48,3 +48,6 @@ gen-external-apklibs/
 
 # Emacs
 *~/build
+
+# Log Files
+*.log
