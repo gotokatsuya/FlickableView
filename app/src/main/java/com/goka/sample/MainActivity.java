@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelZoom() {
+            public void onBackScale() {
                 animateTextView(nameTextView, visible, -translationY);
             }
         });
