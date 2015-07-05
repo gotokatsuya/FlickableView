@@ -63,7 +63,7 @@ Move, Zoom, Flick
      }
      
      @Override
-     public void onBackScale() {
+     public void onBackFromMinScale() {
      }
  });
  

@@ -340,7 +340,7 @@ public class FlickableImageView extends ImageViewTouchBase {
             zoomTo(minScale, 50);
             if (mOnZoomListener != null) {
                 if (mScaling) {
-                    mOnZoomListener.onBackScale();
+                    mOnZoomListener.onBackFromMinScale();
                     mScaling = false;
                 }
             }
@@ -575,7 +575,7 @@ public class FlickableImageView extends ImageViewTouchBase {
 
         void onStartZoom();
 
-        void onBackScale();
+        void onBackFromMinScale();
 
     }
 

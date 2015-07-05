@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onBackScale() {
+            public void onBackFromMinScale() {
                 animateTextView(nameTextView, visible, -translationY);
             }
         });
