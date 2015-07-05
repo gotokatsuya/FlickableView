@@ -16,6 +16,57 @@ Move, Zoom, Flick
  // Http Request
  // String url = "...";
  // Picasso.with(context).load(url).into(flickableImageView);
+ 
+ 
+ // Listeners
+ 
+ // Flick Listener
+ flickableImageView.setOnFlickListener(new FlickableImageView.OnFlickableImageViewFlickListener() {
+     @Override
+     public void onStartFlick() {
+     }
+     
+     @Override
+     public void onFinishFlick() {
+     }
+ });
+ 
+ // Drag Listener
+ flickableImageView.setOnDraggingListener(new FlickableImageView.OnFlickableImageViewDraggingListener() {
+     @Override
+     public void onStartDrag() {
+     }
+     
+     @Override
+     public void onCancelDrag() {
+     }
+ });
+ 
+ // SingleTap Listener
+ flickableImageView.setOnSingleTapListener(new FlickableImageView.OnFlickableImageViewSingleTapListener() {
+     @Override
+     public void onSingleTapConfirmed() {
+     }
+ });
+ 
+ // DoubleTap Listener
+ flickableImageView.setOnDoubleTapListener(new FlickableImageView.OnFlickableImageViewDoubleTapListener() {
+     @Override
+     public void onDoubleTap() {
+     }
+ });
+ 
+ // Zoom Listener
+ flickableImageView.setOnZoomListener(new FlickableImageView.OnFlickableImageViewZoomListener() {
+     @Override
+     public void onStartZoom() {
+     }
+     
+     @Override
+     public void onCancelZoom() {
+     }
+ });
+ 
 ```
 [Check this sample code.](https://github.com/gotokatsuya/FlickableView/blob/master/app/src/main/java/com/goka/sample/MainActivity.java)
 
