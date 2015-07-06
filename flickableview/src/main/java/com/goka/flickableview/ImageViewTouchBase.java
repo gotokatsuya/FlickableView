@@ -23,6 +23,8 @@ import android.widget.ImageView;
 /**
  * Base View to manage image zoom/scrool/pinch operations
  *
+ * LICENSE [https://github.com/sephiroth74/ImageViewZoom/blob/master/LICENSE]
+ *
  * @author alessandro
  * @ModifiedBy gotokatsuya
  */

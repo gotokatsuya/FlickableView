@@ -16,6 +16,8 @@ import java.io.InputStream;
  * Fast bitmap drawable. Does not support states. it only
  * support alpha and colormatrix
  *
+ * LICENSE [https://github.com/sephiroth74/ImageViewZoom/blob/master/LICENSE]
+ *
  * @author alessandro
  * @ModifiedBy gotokatsuya
  */
