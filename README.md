@@ -1,10 +1,15 @@
 # FlickableView
-Flickable ImageView for Android. It is like a twitter's detail image.
+Flickable ImageView for Android. It is like a view of twitter's detail image.
+
+It is possible that other views animate with FlickableView.
 
 ![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/scaled_sample.gif)
 
+
 ## Feature
-Move, Zoom, Flick
+- Move (Up, Down)
+- Zoom
+- Flick (Up, Down)
 
 ## How to use
 
@@ -87,8 +92,8 @@ dependencies {
 
 
 ## Release
-1.0.0
- First release.
+1.0.0  
+　First release.
 
 ## Reference
 [ImageViewZoom](https://github.com/sephiroth74/ImageViewZoom)
