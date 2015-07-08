@@ -1,10 +1,12 @@
 # FlickableView
-Flickable ImageView for Android. It is like a view of twitter's detail image.
+Flickable ImageView for Android. It's like a view of twitter's detail image.
 
-It is possible that other views animate with FlickableView.
+It's possible that other views animate with FlickableView.
 
+![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/img1_desc.png)
+
+## Demo
 ![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/scaled_sample.gif)
-
 
 ## Feature
 - Move (Up, Down)
@@ -77,16 +79,13 @@ It is possible that other views animate with FlickableView.
 
 
 ## Gradle
-
-**Comming soon**
-
 ```java
 repositories {
     jcenter()
 }
 
 dependencies {
-    // compile 'com.github.goka.flickableview:flickableview:1.0.0'
+    compile 'com.github.goka.flickableview:flickableview:1.0.0'
 }
 ```
 
