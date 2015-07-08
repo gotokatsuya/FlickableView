@@ -1,12 +1,9 @@
 # FlickableView
+![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/scaled_sample.gif)
+
 Flickable ImageView for Android. It's like a view of twitter's detail image.
 
 It's possible that other views animate with FlickableView.
-
-![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/img1_desc.png)
-
-## Demo
-![](https://github.com/gotokatsuya/FlickableView/blob/master/doc/scaled_sample.gif)
 
 ## Feature
 - Move (Up, Down)
